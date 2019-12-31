@@ -1,0 +1,10 @@
+1. git push -f origin master
+ !! Beware Github noobs... it'll remove all in Github repo.
+    This is happen when you try to push initially.
+    Because in your GitHub repo have readMe.md or any other 
+    new thing which is not in your local repo. 
+
+    First you have to merge unrelated history of your github repo.
+    To do that ...
+2. git pull origin master --allow-unrelated-histories
+ !! 
