@@ -79,3 +79,8 @@ print('Logging in...')
 # help(smtpd)
 # print(dir(datetime))
 
+import requests
+
+r = requests.get("https://google.com")
+print(r.status_code)
+print(r.ok)
