@@ -8,3 +8,8 @@
     To do that ...
 2. git pull origin master --allow-unrelated-histories
  !! 
+
+3. git remote add origin https://github.com/gitktlee88/GitHub-Test.git
+ !! 
+
+ 
