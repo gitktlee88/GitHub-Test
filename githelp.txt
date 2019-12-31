@@ -1,3 +1,11 @@
+0. git remote add origin https://github.com/gitktlee88/GitHub-Test.git
+ !! 
+ !! git config --local
+    git config --global
+    git config --list
+ 
+
+
 1. git push -f origin master
  !! Beware Github noobs... it'll remove all in Github repo.
     This is happen when you try to push initially.
@@ -9,7 +17,5 @@
 2. git pull origin master --allow-unrelated-histories
  !! 
 
-3. git remote add origin https://github.com/gitktlee88/GitHub-Test.git
- !! 
 
- 
+
