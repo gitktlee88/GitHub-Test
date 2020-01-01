@@ -42,7 +42,7 @@ class MySQLdb_connection(object):
     """   fetchall(),
       the return value is a sequence of tuples that contain the row values.
     """
-    def query_db(sql_cmd, db_use = ''):
+    def query_db(self, sql_cmd, db_use = ''):
         with MySQLdb_connection(db = db_use) as conn:
             with conn.cursor() as cur:
                 r = cur.execute(sql_cmd)
