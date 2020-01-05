@@ -2,3 +2,4 @@ Extensions
 - Atom Keymap
 - Live Server
 - Python
+- pylint

@@ -68,8 +68,8 @@ for key in person_info.keys():
 
 # 7, inputting secrete information
 
-# username = input('Username: ')
-# password = getpass('Password: ')
+username = input('Username: ')
+password = getpass('Password: ')
 
 print('Logging in...')
 
@@ -84,3 +84,4 @@ import requests
 r = requests.get("https://google.com")
 print(r.status_code)
 print(r.ok)
+
